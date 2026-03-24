@@ -154,20 +154,20 @@ h2 {
 h4 {
   margin: 0%;
 }
-.prjs button {
+.prjs a {
+  margin-left: 20px;
   margin-top: 20px;
   border: 2px solid #225b9e;
   border-radius: 10px;
-  padding: 5px;
-}
-.prjs button a {
+  padding: 2px;
+  text-align: center;
   text-decoration: none;
   font-weight: bold;
   font-family: Arial;
   font-size: 20px;
   color: rgb(34, 91, 159);
 }
-.prjs button a:hover {
+.prjs a:hover {
   color: blue;
 }
 h4 {
