@@ -1,7 +1,7 @@
 body {
-  background-image: url("images/image1.jpg");
+  background-image: url("images/index.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: cr;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -11,6 +11,7 @@ body {
 }
 .navbar {
   display: flex;
+  margin: 0%;
 }
 .navbar ul li {
   margin-left: 90px;
@@ -86,6 +87,8 @@ ul {
   align-items: center;
   margin-left: 110px;
   display: flex;
+  padding: 20px;
+  margin-bottom: 40px;
 }
 .avatar {
   width: 230px;
@@ -218,4 +221,15 @@ h4 {
   font-size: 20px;
   font-family: arial;
   color: #225b9e;
+}
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .navbar ul li {
+    margin-left: 20px;
+    display: inline-block;
+    font-size: 20px;
+  }
 }
